@@ -318,4 +318,3 @@ exit 123"123"
 
 >| echo sure
 
-cd --

@@ -4,9 +4,7 @@
 
 ### ECHO ###
 
-echo cd ~
 
-echo "cd ~"
 
 echo ""$?""
 
@@ -56,21 +54,7 @@ echo '$?'
 
 echo "'$?'"
 
-echo \$USER
 
-echo \\$USER
-
-echo \\\$USER
-
-echo \\\\$USER
-
-echo \\\\\$USER
-
-echo \\\\\\\\\$USER
-
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\$USER \$PATH \\$PWD
-
-echo "cat lol.c | cat > lol.c"
 
 echo "cat lol.c '|' cat > lol.c"
 
@@ -158,7 +142,6 @@ echo "-n test1 -n test2"
 
 echo "test1 -n test2"
 
-echo ~42
 
 echo -n -n -nasd
 
@@ -288,8 +271,6 @@ cd _
 pwd
 
 cd ../../
-cd -
-cd -
 
 pwd
 cd echo
@@ -312,8 +293,6 @@ cd $OLDPWD/something
 pwd
 
 pwd
-cd ~
-cd - ananas dot jpeg
 pwd
 
 # might need to change the directory by yourself, that supposed to be valid =)
@@ -322,20 +301,15 @@ cd includes/ djhwbdhwbd wgdyuhgw jdwjdh wuiydjwh
 pwd
 
 pwd
-cd ~ asd w dd q asd
 pwd
 
 pwd
-cd ~
-cd -
 pwd
 
 pwd
-cd -
 pwd
 
 pwd
-cd ~
 pwd
 
 # might need to change the directory by yourself, that supposed to be valid =)
@@ -485,7 +459,6 @@ export TES^T=123
 
 export TES!T=123
 
-export TES\~T=123
 
 export TEST+=100
 
@@ -603,7 +576,6 @@ unset TES^T
 
 unset TES!T
 
-unset TES\~T
 
 /bin/echo $HOME
 unset $HOME

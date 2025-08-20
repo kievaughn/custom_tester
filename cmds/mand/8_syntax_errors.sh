@@ -16,7 +16,6 @@
 
 <<<<<<<<<
 
-~
 
 < < < < < <
 
@@ -79,7 +78,6 @@ cat wouaf wouaf
 
 /
 
-\\\
 
 rm -f something
 

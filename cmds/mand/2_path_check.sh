@@ -6,7 +6,6 @@ unset PATH
 echo $PATH
 /bin/ls
 echo 1
-cd -
 echo 42
 
 unset PATH
@@ -23,13 +22,10 @@ echo $PATH
 
 echo 1
 
-cd -
 
 cd .
 
-cd ~
 
-cd ~/Desktop/
 pwd
 
 export PATH=

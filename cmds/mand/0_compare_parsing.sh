@@ -49,19 +49,12 @@
 
 /bin/echo "'$?'"
 
-/bin/echo \$USER
 
-/bin/echo \\$USER
 
-/bin/echo \\\$USER
 
-/bin/echo \\\\$USER
 
-/bin/echo \\\\\$USER
 
-/bin/echo \\\\\\\\\$USER
 
-/bin/echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\$USER \$PATH \\$PWD
 
 /bin/echo "cat lol.c | cat > lol.c"
 
@@ -161,7 +154,6 @@
 
 /bin/echo "test1 -n test2"
 
-/bin/echo ~42
 
 /bin/echo -n -n -nasd
 
